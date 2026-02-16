@@ -10,7 +10,6 @@ dist-ssr
 *.local
 .vercel
 count.txt
-.env
 .nitro
 .tanstack
 .wrangler
@@ -18,9 +17,9 @@ count.txt
 .vinxi
 todos.json
 .cta.json
-.vscode
 .env*.local
 coverage
 playwright-report
 test-results
 .playwright
+config.bat

@@ -15,8 +15,8 @@
     "LICENSE"
   ],
   "scripts": {
-    "build": "tsc -p tsconfig.json",
-    "dev": "node --enable-source-maps dist/cli.js",
+    "build": "node init && tsc -p tsconfig.json",
+    "dev": "node init && node --enable-source-maps dist/cli.js",
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
