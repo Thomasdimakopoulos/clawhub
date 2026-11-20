@@ -6,11 +6,11 @@
   ],
   "type": "module",
   "scripts": {
-    "build": "node init && bun --bun vite build",
+    "build": "bun --bun vite build",
     "check:peers": "bun scripts/check-peer-deps.ts",
     "convex:deploy": "bunx convex deploy --typecheck=disable --yes",
     "coverage": "vitest run --coverage",
-    "dev": "node init && bun --bun vite dev --port 3000",
+    "dev": "bun --bun vite dev --port 3000",
     "docs:list": "bun scripts/docs-list.ts",
     "format": "oxfmt --write",
     "lint": "bun run lint:oxlint",
