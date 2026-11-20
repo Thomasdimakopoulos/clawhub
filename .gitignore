@@ -22,4 +22,5 @@ coverage
 playwright-report
 test-results
 .playwright
-config.bat
+
+.env
